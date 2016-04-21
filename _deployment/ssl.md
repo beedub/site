@@ -33,7 +33,7 @@ Your app is now configured to serve encrypted traffic with a self-signed certifi
 
 ### Upload your certificate
 
-Upload you certificate using `convox certs create`:
+Upload your certificate using `convox certs create`:
 
     $ convox certs create example.org.pub example.org.key
     Uploading certificate... OK, cert-1234567890
