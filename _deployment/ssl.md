@@ -7,7 +7,12 @@ You can easily secure traffic to your application using TLS (SSL).
 
 ### Acquire an SSL certificate
 
-SSL certificates can be purchased from most registrars and DNS providers. Convox is a fan of [gandi.net](https://www.gandi.net/ssl).
+You can request an SSL certificate for any domain you control using `convox certs generate`:
+
+    $ convox certs generate foo.example.org
+    Requesting certificate... OK, acm-01234567890
+
+You can also purchase an SSL certificate from most registrars and DNS providers. Convox is a fan of [Gandi](https://www.gandi.net/ssl).
 
 ### Add the secure port to your manifest
 
