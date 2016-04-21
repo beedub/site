@@ -12,6 +12,10 @@ You can request an SSL certificate for any domain you control using `convox cert
     $ convox certs generate foo.example.org
     Requesting certificate... OK, acm-01234567890
 
+<div class="block-callout block-show-callout type-info" markdown="1">
+Certificate generation is currently [only available in certain regions](<div class="block-callout block-show-callout type-info" markdown="1">).
+</div>
+
 You can also purchase an SSL certificate from most registrars and DNS providers. Convox is a fan of [Gandi](https://www.gandi.net/ssl).
 
 ### Add the secure port to your manifest
